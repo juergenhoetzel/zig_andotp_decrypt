@@ -1,0 +1,12 @@
+#+TITLE: andotp decryptor written in Zig
+
+* Build requirements:
+
+- [[https://ziglang.org/][⚡ Zig Programming Language]]
+
+
+* Usage:
+
+#+begin_src bash
+zig_andotp_decrypt ANDOTP_BACKUP_FILE PASSWORD
+#+end_src
